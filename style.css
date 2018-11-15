@@ -34,8 +34,11 @@ h1, h2{
 }
 
 @media only screen and (min-width: 768px){
+    .container{
+        justify-content: space-around;
+    }
     .container div{
-        width:50%;
+        width:49%;
     }
 
     .telephone{
@@ -48,7 +51,7 @@ h1, h2{
 }
 @media only screen and (min-width: 969px){
     .container{
-        width:75%;
+        width:969px;
         margin:auto;
     }
 
@@ -62,8 +65,11 @@ h1, h2{
 }
 
 @media only screen and (min-width: 1369px){
+    .container{
+        width:1369px;
+    }
     .container div{
-        width:25%;
+        width:24%;
     }
 
     .desktop{
